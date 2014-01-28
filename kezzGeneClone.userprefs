@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\ObjectsControl.cs">
+    <Files>
+      <File FileName="Assets\scripts\ObjectsControl.cs" Line="100" Column="18" />
+      <File FileName="Assets\scripts\MicrophoneInput.cs" Line="21" Column="14" />
+      <File FileName="Assets\scripts\myLabel.cs" Line="31" Column="39" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
