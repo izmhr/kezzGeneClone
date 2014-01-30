@@ -1,4 +1,12 @@
-﻿using UnityEngine;
+﻿/*
+ * This code is writen based on this article.
+ * このコードは、以下の記事を元に作成いたしました。
+ * 
+ * USING MICROPHONE INPUT IN UNITY3D
+ * http://www.kaappine.fi/tutorials/using-microphone-input-in-unity3d/
+ */
+
+using UnityEngine;
 using System.Collections;
 
 [RequireComponent(typeof(AudioSource))]

@@ -1,4 +1,12 @@
-﻿using UnityEngine;
+﻿/*
+ * This code is writen based on this project
+ * このコードは、下記プロジェクトを基本にして作成しました。
+ * 
+ * kezzardrix/patternExample
+ * https://github.com/kezzardrix/patternExample
+ */
+
+using UnityEngine;
 using System.Collections;
 
 public class ObjectsControl : MonoBehaviour {

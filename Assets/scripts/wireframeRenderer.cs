@@ -1,4 +1,12 @@
-﻿using UnityEngine;
+﻿/*
+ * This code is writen based on this forum post.
+ * このコードは、以下のフォーラムの投稿を元に作成いたしました。
+ * 
+ * Wireframe Rendering?
+ * http://answers.unity3d.com/questions/144693/wireframe-rendering.html
+ */
+
+using UnityEngine;
 using System.Collections;
 
 public class wireframeRenderer : MonoBehaviour {
