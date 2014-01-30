@@ -7,6 +7,12 @@ kezzardrixさんが [プログラミングを用いた映像制作のコツ～�
 
 ![ScreenClip](ScreenClip.png)
 
+### ブログを書きました
+[UnityでAudio Responsive なVisualizerをつくる](http://izmiz.hateblo.jp/entry/2014/01/30/220521)
+
+### 動画をアップしました
+[kezzGeneClone](http://vimeo.com/85348316)
+
 ### Usage ご利用方法
 
 #### Clone > UnityでOpen
