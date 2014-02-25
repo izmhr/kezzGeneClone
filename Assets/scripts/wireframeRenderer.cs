@@ -16,12 +16,7 @@ public class wireframeRenderer : MonoBehaviour {
 	public bool render_lines_2nd = false;
 	public bool render_lines_3rd = false;
 	public Color lineColor = new Color (0.0f, 1.0f, 1.0f);
-	public Color backgroundColor = new Color (0.0f, 0.5f, 0.5f);
-	public bool ZWrite = true;
-	public bool AWrite = true;
-	public bool blend = true;
 	public float lineWidth = 3;
-	public int size = 0;
 	
 	private Vector3[] lines ;
 	private ArrayList lines_List ;
@@ -46,12 +41,6 @@ public class wireframeRenderer : MonoBehaviour {
 			                             //"Blend One One" + 
 			                             "   ZWrite on Cull off Fog { Mode Off }" +
 			                             "} } }");
-			
-			/*lineMaterial = new Material ("Shader \"Lines/Colored Blended\" {" +
-                           "SubShader { Pass {" +
-                           " Blend SrcAlpha OneMinusSrcAlpha" +
-                           " ZWrite Off Cull Front Fog { Mode Off }" +
-                           "} } }");*/
 		}
 		lineMaterial.hideFlags = HideFlags.HideAndDontSave;
 		lineMaterial.shader.hideFlags = HideFlags.HideAndDontSave;
@@ -72,7 +61,6 @@ public class wireframeRenderer : MonoBehaviour {
 		//lines_List.CopyTo(lines);//arrays are faster than array lists
 		lines = (Vector3[]) lines_List.ToArray(typeof(Vector3));
 		lines_List.Clear();//free memory from the arraylist
-		size = lines.Length;
 	}
 	
 	// to simulate thickness, draw line as a quad scaled along the camera's vertical axis.
